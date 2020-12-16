@@ -1,0 +1,318 @@
+{
+    "hiragana": {
+        "a": {
+            "a": {
+                "romaji": "a",
+                "hiragana": "あ"
+            },
+            "i": {
+                "romaji": "i",
+                "hiragana": "い"
+            },
+            "u": {
+                "romaji": "u",
+                "hiragana": "う"
+            },
+            "e": {
+                "romaji": "e",
+                "hiragana": "え"
+            },
+            "o": {
+                "romaji": "o",
+                "hiragana": "お"
+            }
+        },
+        "ka": {
+            "ka": {
+                "romaji": "ka",
+                "hiragana": "か"
+            },
+            "ki": {
+                "romaji": "ki",
+                "hiragana": "き"
+            },
+            "ku": {
+                "romaji": "ku",
+                "hiragana": "く"
+            },
+            "ke": {
+                "romaji": "ke",
+                "hiragana": "け"
+            },
+            "ko": {
+                "romaji": "ko",
+                "hiragana": "こ"
+            }
+        },
+        "ga": {
+            "ga": {
+                "romaji": "ga",
+                "hiragana": "が"
+            },
+            "gi": {
+                "romaji": "gi",
+                "hiragana": "ぎ"
+            },
+            "gu": {
+                "romaji": "gu",
+                "hiragana": "ぐ"
+            },
+            "ge": {
+                "romaji": "ge",
+                "hiragana": "ご"
+            },
+            "go": {
+                "romaji": "go",
+                "hiragana": "げ"
+            }
+        },
+        "sa": {
+            "sa": {
+                "romaji": "a",
+                "hiragana": "さ"
+            },
+            "shi": {
+                "romaji": "shi",
+                "hiragana": "し"
+            },
+            "su": {
+                "romaji": "su",
+                "hiragana": "す"
+            },
+            "se": {
+                "romaji": "se",
+                "hiragana": "せ"
+            },
+            "so": {
+                "romaji": "so",
+                "hiragana": "そ"
+            }
+        },
+        "za": {
+            "za": {
+                "romaji": "za",
+                "hiragana": "ざ"
+            },
+            "ji": {
+                "romaji": "ji",
+                "hiragana": "じ"
+            },
+            "zu": {
+                "romaji": "zu",
+                "hiragana": "ず"
+            },
+            "ze": {
+                "romaji": "ze",
+                "hiragana": "ぞ"
+            },
+            "zo": {
+                "romaji": "zo",
+                "hiragana": "ぜ"
+            }
+        },
+        "ta": {
+            "ta": {
+                "romaji": "ta",
+                "hiragana": "た"
+            },
+            "chi": {
+                "romaji": "chi",
+                "hiragana": "ち"
+            },
+            "tsu": {
+                "romaji": "tsu",
+                "hiragana": "つ"
+            },
+            "te": {
+                "romaji": "te",
+                "hiragana": "て"
+            },
+            "to": {
+                "romaji": "to",
+                "hiragana": "と"
+            }
+        },
+        "da": {
+            "da": {
+                "romaji": "da",
+                "hiragana": "だ"
+            },
+            "ji": {
+                "romaji": "ji",
+                "hiragana": "ぢ"
+            },
+            "du": {
+                "romaji": "du",
+                "hiragana": "づ"
+            },
+            "de": {
+                "romaji": "de",
+                "hiragana": "で"
+            },
+            "do": {
+                "romaji": "do",
+                "hiragana": "ど"
+            }
+        },
+        "na": {
+            "na": {
+                "romaji": "na",
+                "hiragana": "な"
+            },
+            "ni": {
+                "romaji": "ni",
+                "hiragana": "に"
+            },
+            "nu": {
+                "romaji": "nu",
+                "hiragana": "ぬ"
+            },
+            "ne": {
+                "romaji": "ne",
+                "hiragana": "ね"
+            },
+            "no": {
+                "romaji": "no",
+                "hiragana": "の"
+            }
+        },
+        "ha": {
+            "ha": {
+                "romaji": "ha",
+                "hiragana": "は"
+            },
+            "hi": {
+                "romaji": "hi",
+                "hiragana": "ひ"
+            },
+            "fu": {
+                "romaji": "fu",
+                "hiragana": "ふ"
+            },
+            "he": {
+                "romaji": "he",
+                "hiragana": "へ"
+            },
+            "ho": {
+                "romaji": "ho",
+                "hiragana": "ほ"
+            }
+        },
+        "ba": {
+            "ba": {
+                "romaji": "ba",
+                "hiragana": "ば"
+            },
+            "bi": {
+                "romaji": "bi",
+                "hiragana": "び"
+            },
+            "bu": {
+                "romaji": "bu",
+                "hiragana": "ぶ"
+            },
+            "be": {
+                "romaji": "be",
+                "hiragana": "べ"
+            },
+            "bo": {
+                "romaji": "bo",
+                "hiragana": "ぼ"
+            }
+        },
+        "pa": {
+            "pa": {
+                "romaji": "pa",
+                "hiragana": "ぱ"
+            },
+            "pi": {
+                "romaji": "pi",
+                "hiragana": "ぴ"
+            },
+            "pu": {
+                "romaji": "pu",
+                "hiragana": "ぷ"
+            },
+            "pe": {
+                "romaji": "pe",
+                "hiragana": "ぺ"
+            },
+            "po": {
+                "romaji": "po",
+                "hiragana": "ぽ"
+            }
+        },
+        "ma": {
+            "ma": {
+                "romaji": "ma",
+                "hiragana": "ま"
+            },
+            "mi": {
+                "romaji": "mi",
+                "hiragana": "み"
+            },
+            "mu": {
+                "romaji": "mu",
+                "hiragana": "む"
+            },
+            "me": {
+                "romaji": "me",
+                "hiragana": "め"
+            },
+            "mo": {
+                "romaji": "mo",
+                "hiragana": "も"
+            }
+        },
+        "ya": {
+            "ya": {
+                "romaji": "ya",
+                "hiragana": "や"
+            },
+            "yu": {
+                "romaji": "yu",
+                "hiragana": "ゆ"
+            },
+            "yo": {
+                "romaji": "yo",
+                "hiragana": "よ"
+            }
+        },
+        "ra": {
+            "ra": {
+                "romaji": "ra",
+                "hiragana": "ら"
+            },
+            "ri": {
+                "romaji": "ri",
+                "hiragana": "り"
+            },
+            "ru": {
+                "romaji": "ru",
+                "hiragana": "る"
+            },
+            "re": {
+                "romaji": "re",
+                "hiragana": "れ"
+            },
+            "ro": {
+                "romaji": "ro",
+                "hiragana": "ろ"
+            }
+        },
+        "wa": {
+            "wa": {
+                "romaji": "wa",
+                "hiragana": "わ"
+            },
+            "wo": {
+                "romaji": "wo",
+                "hiragana": "を"
+            }
+        },
+        "n": {
+            "romaji": "n",
+            "hiragana": "ん"
+        }
+    }
+}

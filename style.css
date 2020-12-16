@@ -43,3 +43,17 @@ body {
 #footer address {
     color: white;
 }
+table {
+    font-size: 1.3rem;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+td, th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 1rem;
+}
+td:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}

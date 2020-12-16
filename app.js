@@ -14,7 +14,7 @@ request.onload = () => {
 
 function testFunc() {
     const div = document.createElement("div");
-    const text = document.createTextNode(json.hiragana.sa.sa.romaji);
+    const text = document.createTextNode(json.hiragana.sa.shi.hiragana);
     div.append(text);
     activeArea.append(div);
 }

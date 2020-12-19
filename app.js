@@ -63,8 +63,9 @@ class StudyCardElement {
         const japanese = document.createElement("p");
         english.innerText = this.romaji;
         japanese.innerText = this.hiragana;
-        div.append(english);
         div.append(japanese);
+        div.append(english);
+        div.className = "cardClass";
         appendLocation.append(div);
     }
 }
@@ -73,6 +74,7 @@ const baseHiraganaArray = ["a", "ka", "sa", "ta", "na", "ha", "ma", "ya", "ra", 
 const modifiedHiraganaArray = ["ga", "za", "da", "ba", "pa"];
 const allHiraganaArray = baseHiraganaArray.concat(modifiedHiraganaArray);
 function studyCards(someArray) {
+    studyCardsContainer.innerHTML = "";
     for (i = 0; i < someArray.length; i++) {
         const rowArray = Object.keys(json.hiragana[someArray[i]]);
         console.log(rowArray);
@@ -81,5 +83,7 @@ function studyCards(someArray) {
             const card = new StudyCardElement(target.romaji, target.hiragana);
             card.buildCard(studyCardsContainer);
         }
-    }    
+    }
+    //Append first card to container
+    studyContainer.append(studyCardsContainer.firstElementChild);    
 }

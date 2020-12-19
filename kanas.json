@@ -308,11 +308,11 @@
             "wo": {
                 "romaji": "wo",
                 "hiragana": "を"
+            },
+            "n": {
+                "romaji": "n",
+                "hiragana": "ん"
             }
-        },
-        "n": {
-            "romaji": "n",
-            "hiragana": "ん"
         }
     }
 }

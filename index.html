@@ -31,6 +31,7 @@
     </div>
 
     <div id="hidden-div">
+        <button id="close-button">X</button>
         <table id="hiragana-table">
             <colgroup span="12"></colgroup>
             <tr>
@@ -118,6 +119,14 @@
                 <td></td>
             </tr>
         </table>
+        <div id="study-container">
+            <div id="study-options-container">
+                <button class="option-button" id="base-hiragana-button">Base hiragana only</button>
+                <button class="option-button" id="modified-hiragana-button">Modified Hiragana only</button>
+                <button class="option-button" id="all-hiragana-button">All Hiragana</button>
+            </div>
+            <div id="study-cards-container"></div>
+        </div>
     </div>
     
     <script src="app.js"></script>

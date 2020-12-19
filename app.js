@@ -52,13 +52,34 @@ baseHiraganaButton.addEventListener("click", () => {studyCards(baseHiraganaArray
 modifiedHiraganaButton.addEventListener("click", () => {studyCards(modifiedHiraganaArray)});
 allHiraganaButton.addEventListener("click", () => {studyCards(allHiraganaArray)});
 
+class StudyCardElement {
+    constructor(romaji, hiragana) {
+        this.romaji = romaji;
+        this.hiragana = hiragana;
+    }
+    buildCard(appendLocation) {
+        const div = document.createElement("div");
+        const english = document.createElement("p");
+        const japanese = document.createElement("p");
+        english.innerText = this.romaji;
+        japanese.innerText = this.hiragana;
+        div.append(english);
+        div.append(japanese);
+        appendLocation.append(div);
+    }
+}
 
-const baseHiraganaArray = ["a", "ka", "sa", "ta", "na", "ha", "ma", "ya", "ra", "wa", "n"];
+const baseHiraganaArray = ["a", "ka", "sa", "ta", "na", "ha", "ma", "ya", "ra", "wa"];
 const modifiedHiraganaArray = ["ga", "za", "da", "ba", "pa"];
 const allHiraganaArray = baseHiraganaArray.concat(modifiedHiraganaArray);
 function studyCards(someArray) {
     for (i = 0; i < someArray.length; i++) {
         const rowArray = Object.keys(json.hiragana[someArray[i]]);
         console.log(rowArray);
+        for (j = 0; j < rowArray.length; j++) {
+            const target = json.hiragana[someArray[i]][rowArray[j]];
+            const card = new StudyCardElement(target.romaji, target.hiragana);
+            card.buildCard(studyCardsContainer);
+        }
     }    
 }

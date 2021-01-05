@@ -20,3 +20,5 @@ print('Vehicle Prestart checked')
 
 os.system('python exporter.py --format pdf --config journey.yaml')
 print('Journey Management checked')
+
+input('Press enter to exit')
